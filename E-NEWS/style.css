@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position:relative;
+
+}
+/*Global CSS*/
+
+.obj-width{
+    max-width: 1200px;
+    margin:auto;
+}
+nav{
+    background-color: rgb(2, 1, 1);
+    box-sizing: 0px 12px 10px rgb(2, 15, 131);
+    ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.3rem 0px;
+    
+} 
+.navbar .logo{
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    padding:10px 10px;
+
+}
+
+#sea{
+    max-width: 400px;
+    padding:10px 10px;
+    margin:0px 10px;
+    border:2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(43, 39, 34);
+}
+#se-button{
+    padding:10px 20px;
+    background-color: darkolivegreen;
+    color:white;
+    border-radius:10px ;
+    display: flex;
+    margin:10px auto;
+    
+}
+#blog-container{
+    padding: 3rem 0px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+ flex-wrap: wrap;
+}
+
+.card{
+    width: 200px;
+    border: 2px solid rgb(251, 244, 244);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1rem;
+    margin:10px;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 4px rgba(0,0,0,1);
+    background-color: rgb(223, 204, 178);
+}
+.card img{
+    width:100%;
+    height:100%;
+    object-fit: cover ;
+    border-radius: 5px;
+}
+.card h3{
+    margin:20px 20px;
+}
+@media(max-width:500px){
+    .navbar .logo{
+        font-size: 1.5rem;    }
+    #sea{
+     width:150px;
+     padding:10px 10px;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+
+.footer { 
+    background-color: rgb(6, 22, 16);
+    color: white;
+    text-align: center;
+ height: 40px;   
+}
+
+
+
+#mySidenav a {
+    position: absolute;
+    right: -60px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px; 
+    color: white;
+    border-radius: 25PX 5px 25px 0; 
+  }
+  
+  #mySidenav a:hover {
+    right: 0; 
+  }
+  
+  
+  #E-MAIL {
+    top: 250px;
+    background-color: #000000;
+  }
+  
+  
+  
+  #CONTACT {
+    top: 350px;
+    background-color: #000000; 
+  }
+  
+  #LINKEDIN {
+    top: 440px;
+    background-color: #1b1818 ;
+  }
+  
